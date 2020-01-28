@@ -39,7 +39,7 @@ songArray.forEach(function(song) {
     $('.s').append(`<li>${song.name}</li>`);
     $('.a').append(`<li>${song.artist}</li>`);
     $('.le').append(`<li>${song.length}</li>`);
-    $('.li').append(`<li><a href="${song.link}"></a></li>`);
+    $('.li').append(`<li><a href="${song.link}">link</a></li>`);
 })
 
 function addSong () {
