@@ -56,7 +56,7 @@ function addSong () {
         $('.s').append(`<li>${song.name}</li>`);
         $('.a').append(`<li>${song.artist}</li>`);
         $('.le').append(`<li>${song.length}</li>`);
-        $('.li').append(`<li><a href="${song.link}">link</a></li>`);
+        $('.li').append(`<li><a href="${song.link}">${song.link}</a></li>`);
     })
 }
 
