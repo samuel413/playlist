@@ -44,9 +44,13 @@ songArray.forEach(function(song) {
 
 function addSong () {
    let song = $('.song').val();
+   $('.song').val('');
    let artist = $('.artist').val();
+   $('.artist').val('');
    let length = $('.length').val();
+   $('.length').val('');
    let link = $('.link').val();
+   $('.link').val('');
    songArray.push({name:song, artist:artist, length:length, link:link})
 //     songName.push(song);
 //     songArtist.push(artist);
